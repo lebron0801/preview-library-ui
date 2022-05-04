@@ -8,7 +8,7 @@ type PropsType = {
 class CommentList extends React.Component<PropsType, any> {
   static contextType = ThemeContext;
   render(): React.ReactNode {
-    const context = this.context;
+    const context: any = this.context;
 
     return (
       <div className="comment-list" style={{ color: context.foreground, backgroundColor: context.background }}>

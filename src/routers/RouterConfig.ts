@@ -54,7 +54,7 @@ const config = {
           code: 'SchedulingManage',
           nodeType: 'page',
           path: '/Scheduling/SchedulingManage',
-          meta: { title: '排班管理', auth: true, icon: '', keepAlive: true }
+          meta: { title: '排班管理', auth: true, icon: '', keepAlive: false }
         },
         {
           id: 4,

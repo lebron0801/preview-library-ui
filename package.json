@@ -10,8 +10,8 @@
     "@testing-library/user-event": "^12.1.10",
     "@types/jest": "^26.0.15",
     "@types/node": "^12.0.0",
-    "@types/react": "^16.9.53",
-    "@types/react-dom": "^16.9.8",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
     "@types/react-redux": "^7.1.16",
     "@types/react-router-dom": "^5.1.7",
     "antd": "^4.10.0",
@@ -24,9 +24,9 @@
     "memoize-one": "^6.0.0",
     "nprogress": "^0.2.0",
     "raf-schd": "^4.0.3",
-    "react": "^17.0.1",
+    "react": "^17.0.0",
     "react-custom-scrollbars": "^4.2.1",
-    "react-dom": "^17.0.1",
+    "react-dom": "^17.0.0",
     "react-measure": "^2.5.2",
     "react-redux": "^7.2.2",
     "react-router-cache-route": "^1.11.0",
@@ -36,7 +36,7 @@
     "redux-saga": "^1.1.3",
     "redux-thunk": "^2.4.1",
     "socket.io-client": "^2.1.1",
-    "typescript": "^4.1.3",
+    "typescript": "~4.1.3",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -84,7 +84,7 @@
   "bugs": {
     "url": "https://github.com/lebron0801/preview-library-ui/issues"
   },
-  "homepage": "https://lebron0801.github.io/preview-library-ui",
+  "homepage": "https://lebron0801.github.io/preview-library-ui/",
   "devDependencies": {
     "@babel/plugin-proposal-decorators": "^7.12.12",
     "@types/classnames": "^2.2.11",

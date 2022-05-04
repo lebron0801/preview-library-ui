@@ -51,6 +51,7 @@ module.exports = {
       webpackConfig.output.libraryTarget = 'umd';
       webpackConfig.output.jsonpFunction = `webpackJsonp_${name}`;
       webpackConfig.output.globalObject = 'window';
+      webpackConfig.output.publicPath = 'https://lebron0801.github.io/preview-library-ui/';
 
       return webpackConfig;
     },

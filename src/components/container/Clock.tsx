@@ -6,6 +6,7 @@ type StateType = {
 
 type PropsType = {
   times: number;
+  children?: React.ReactNode;
 };
 
 class Clock extends React.Component<PropsType, StateType> {
