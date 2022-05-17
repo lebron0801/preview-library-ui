@@ -47,7 +47,7 @@
     "start-sit": "dotenv -e .env.sit craco start FAST_REFRESH=true",
     "build:dev": "dotenv -e .env.development craco build",
     "build:uat": "dotenv -e .env.uat craco build",
-    "build": "set GENERATE_SOURCEMAP=false && craco build",
+    "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
     "deploy:build": "yarn build:dev && gh-pages -d build",
